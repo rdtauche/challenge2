@@ -19,6 +19,12 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -74,6 +80,13 @@ flex-wrap: wrap;
 
 #about-me {
 flex-direction: column;
+line-height: 2;
+padding-left: 70px;
+}
+
+#aboutme {
+    font-size: 40px;
+    text-transform: lowercase;
 }
 
 #my-work {
@@ -93,11 +106,23 @@ flex-direction: column;
     header, main {
         flex-direction: column;
     }
+
+    section {
+        justify-content: center;
+    }
+
+    .profilepic {
+        width: 300px;
+        height: 450px;
+    }
+
   }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 812px) {
 
+    
+    
   }
   
   /* Small smartphones - image placeholders change color */
@@ -105,5 +130,6 @@ flex-direction: column;
     a {
         font-size: 18px;
     }
+
     
   }
