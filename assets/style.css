@@ -52,9 +52,9 @@ a {
 main {
 display: flex;
 flex-wrap: wrap;
-margin-top: 150px;
+margin-top: 250px;
 justify-content: space-between;
-padding: 0px 200px;
+padding: 0px 100px;
 }
 
 section {
@@ -80,7 +80,7 @@ padding: 100px 0px;
 .profilepic {
     /* float: right; */
     text-align: right;
-    border-radius: 500px;
+    border-radius: 50px;
     height: 400px;
 }
 
@@ -117,6 +117,11 @@ padding: 100px 0px;
     text-align: center;
     width: 300px;
     height: 300px;
+  }
+
+  .mylogo {
+    width: 140px;
+    height: 120px;
   }
    
 #about-me {
