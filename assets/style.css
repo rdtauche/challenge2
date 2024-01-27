@@ -1,5 +1,6 @@
 * {
     font-family: 'Cedarville Cursive', cursive;
+    list-style-type: none;
 }
 
 header {
@@ -38,7 +39,7 @@ nav ul {
   } */
 
 nav a:hover {
-    color: #fcd7ec;
+    color: #ff69b4;
   }
 
 a {
@@ -54,7 +55,7 @@ display: flex;
 flex-wrap: wrap;
 margin-top: 250px;
 justify-content: space-between;
-padding: 0px 100px;
+padding: 0px 250px;
 }
 
 section {
@@ -66,7 +67,7 @@ flex-wrap: wrap;
 .footer {
 display: flex;
 justify-content: center;
-background-color: #fcd7ec;
+background-color: pink;
 width: 100%;
 padding: 100px 0px;
 }
@@ -82,10 +83,11 @@ padding: 100px 0px;
     text-align: right;
     border-radius: 50px;
     height: 400px;
+    background-color: pink;
 }
 
 .button {
-    background-color: #fcd7ec;
+    background-color: pink;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -112,7 +114,7 @@ padding: 100px 0px;
   }
   
   .grid-item {
-    background-color: #ddd;
+    background-color: pink;
     padding: 10px;
     text-align: center;
     width: 300px;
@@ -122,6 +124,8 @@ padding: 100px 0px;
   .mylogo {
     width: 140px;
     height: 120px;
+    background-image: url("./assets/FullLogo.png");
+    background-color: #fcd7ec;
   }
    
 #about-me {
@@ -150,22 +154,35 @@ padding-left: 70px;
 
 
 /* Tablets - header changes color */
-@media screen and (max-width: 1172px) {
+@media screen and (max-width: 1572px) {
     header, main {
         flex-direction: column;
-        padding: 0px 0px;
-
+        padding: 0px;
+        align-items: center;
+    
     }
 
     section {
         justify-content: center;
     }
-
+    
+    #about-me {
+        padding-top: 100px;
+        padding-left: 0px;
+        align-items: center;
+        }
+    #aboutme {
+        margin-top: 0px;
+    }
+    
     .profilepic {
         width: 600px;
         height: 450px;
     }
 
+    .button {
+        margin-bottom: 50px;
+    }
     .footer-about, .footer-services, .footer-contact, .footer-follow {
         width: 100%;
         margin-bottom: 20px;
