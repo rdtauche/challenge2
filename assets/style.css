@@ -63,11 +63,14 @@ flex-wrap: wrap;
 
 }
 
-footer {
+.footer {
 display: flex;
-flex-wrap: wrap;
-
+justify-content: center;
+background-color: #fcd7ec;
+width: 100%;
+padding: 100px 0px;
 }
+
 
 
 .handwritten {
@@ -96,6 +99,7 @@ flex-wrap: wrap;
     border-radius: 25px;
   }
 
+   
 #about-me {
 flex-direction: column;
 line-height: 2;
@@ -119,6 +123,8 @@ padding-left: 70px;
 
 }
 
+
+
 /* Tablets - header changes color */
 @media screen and (max-width: 1172px) {
     header, main {
@@ -136,6 +142,9 @@ padding-left: 70px;
         height: 450px;
     }
 
+    .footer-about, .footer-services, .footer-contact, .footer-follow {
+        width: 100%;
+        margin-bottom: 20px;
 
   }
   
