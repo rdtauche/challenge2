@@ -38,7 +38,7 @@ nav ul {
   } */
 
 nav a:hover {
-    color: palevioletred;
+    color: #fcd7ec;
   }
 
 a {
@@ -54,6 +54,7 @@ display: flex;
 flex-wrap: wrap;
 margin-top: 150px;
 justify-content: space-between;
+padding: 0px 200px;
 }
 
 section {
@@ -68,6 +69,7 @@ flex-wrap: wrap;
 
 }
 
+
 .handwritten {
     font-family: 'Gluten', sans-serif;
 }
@@ -76,7 +78,23 @@ flex-wrap: wrap;
     /* float: right; */
     text-align: right;
     border-radius: 500px;
+    height: 400px;
 }
+
+.button {
+    background-color: #fcd7ec;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 25px;
+  }
 
 #about-me {
 flex-direction: column;
@@ -90,7 +108,7 @@ padding-left: 70px;
 }
 
 #my-work {
-
+    padding-top: 100px;
 }
 
 #contact {
@@ -102,9 +120,11 @@ padding-left: 70px;
 }
 
 /* Tablets - header changes color */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1172px) {
     header, main {
         flex-direction: column;
+        padding: 0px 0px;
+
     }
 
     section {
@@ -116,14 +136,14 @@ padding-left: 70px;
         height: 450px;
     }
 
+
   }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 812px) {
-
-    
-    
-  }
+    main {
+        padding: 0px 0px;
+   }
   
   /* Small smartphones - image placeholders change color */
   @media screen and (max-width: 576px) {
