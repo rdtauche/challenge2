@@ -50,17 +50,29 @@
         </section>
         <section id="resume">
             <h2>Resume</h2>
-            <div class="grid-container">
-                <div class="grid-item">Tile 1</div>
-                <!-- Add more grid items as needed -->
+            <div class="grid-container1">
+                <a href="https://www.linkedin.com/in/ross-tauchert-9489079/"><img class="grid-item1" src="./assets/resumeimage1.png" alt="Coming Soon"></a>
             </div>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="grid-container">
-                <div class="grid-item">Tile 1</div>
-                <!-- Add more grid items as needed -->
-            </div>
+        <section class="container" id="contact">
+            <h2>Contact Me</h2>
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email address..">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
         </section>
     </main>
 
