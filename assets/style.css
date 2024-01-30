@@ -1,7 +1,12 @@
+:root {
+  --pink: pink;
+}
+
 * {
     font-family: 'Cedarville Cursive', cursive;
     list-style-type: none;
 }
+
 
 header {
     display: flex;
@@ -84,7 +89,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: pink;
+    background-color: var(--pink);
     color: black;
     padding: 12px 20px;
     border: none;
@@ -94,7 +99,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: pink;
+    background-color: var(--pink);
   }
   
   /* Add a background color and some padding around the form */
@@ -108,7 +113,7 @@ input[type=text], select, textarea {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: pink;
+    background-color: var(--pink);
     width: 100%;
     padding: 100px 0px;
 
@@ -125,12 +130,12 @@ input[type=text], select, textarea {
     text-align: right;
     border-radius: 50px;
     height: 400px;
-    background-color: pink;
+    background-color: var(--pink);
 }
 
 .button {
     justify-content: center;
-    background-color: pink;
+    background-color: var(--pink);
     border: none;
     color: black;
     padding: 15px 32px;
@@ -169,7 +174,7 @@ input[type=text], select, textarea {
   }
   
   .grid-item1 {
-    background-color: pink;
+    background-color: var(--pink);
     padding: 5px;
     text-align: center;
     width: 600px;
@@ -177,7 +182,7 @@ input[type=text], select, textarea {
   }
 
   .grid-item2 {
-    background-color: pink;
+    background-color: var(--pink);
     /* padding: 10px; */
     text-align: center;
     width: 300px;
