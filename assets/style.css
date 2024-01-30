@@ -55,9 +55,10 @@ a {
 
 main {
 display: flex;
+flex-direction: row;
 flex-wrap: wrap;
 margin-top: 250px;
-justify-content: space-between;
+justify-content: center;
 padding: 0px 300px;
 }
 
@@ -66,6 +67,8 @@ display: flex;
 flex-wrap: wrap;
 
 }
+
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -99,14 +102,16 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    width: 600px;
   }
 
 .footer {
-display: flex;
-justify-content: center;
-background-color: pink;
-width: 100%;
-padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    width: 100%;
+    padding: 100px 0px;
+
 }
 
 
@@ -203,10 +208,6 @@ padding-left: 70px;
 
 }
 
-#contact {
-
-}
-
 #resume {
     justify-content: center;
 
@@ -256,7 +257,7 @@ padding-left: 70px;
   }
   
   /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 812px) {
+  @media screen and (max-width: 1000px) {
     main {
         padding: 0px 0px;
    }
@@ -266,8 +267,38 @@ padding-left: 70px;
   }
   
   /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 800px) {
     a {
         font-size: 18px;
     }
+
+    #aboutme {
+      width: 300px;
+      height: 300px;
+      font-size: 30px;
+  }
+
+  .profilepic {
+    width: 350px;
+    height: 250px;
+  }
+
+  .grid-item1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .grid-item2 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .container {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 350px;
+  }
+
+  .footer {
+    margin-top: 10px;
   }
