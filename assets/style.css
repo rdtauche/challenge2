@@ -209,12 +209,19 @@ padding-left: 4.375rem;
 }
 
 #my-work {
-    padding-top: 6.25rem;
+    padding-top: 3.25rem;
     justify-content: center;
+    border-top: 0.25rem dashed var(--pink);
+    margin-top: 6rem;
+    width: 75%;
 }
 
 #resume {
-    justify-content: center;
+  padding-top: 3.25rem;
+  justify-content: center;
+  border-top: 0.25rem dashed var(--pink);
+  margin-top: 1rem;
+  width: 75%;
 
 }
 
