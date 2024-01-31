@@ -22,12 +22,12 @@ header {
 
 h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 h2 {
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: normal;
     text-align: center;
     justify-content: center;
@@ -37,7 +37,7 @@ h2 {
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
+    min-width: 18.75rem;
   }
   
   /* nav a {
@@ -53,18 +53,18 @@ nav a:hover {
 a {
     /* removes underlining from nav links */
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: black;
-    padding-right: 35px;
+    padding-right: 2.188rem;
  }
 
 main {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-margin-top: 250px;
+margin-top: 15.625rem;
 justify-content: center;
-padding: 0px 300px;
+padding: 0rem 18.75rem;
 }
 
 section {
@@ -78,12 +78,12 @@ flex-wrap: wrap;
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    padding: 0.75rem; /* Some padding */ 
+    border: 0.063rem solid #ccc; /* Gray border */
+    border-radius: 0.25rem; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: 0.375rem; /* Add a top margin */
+    margin-bottom: 1rem; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
@@ -91,9 +91,9 @@ input[type=text], select, textarea {
   input[type=submit] {
     background-color: var(--pink);
     color: black;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     cursor: pointer;
   }
   
@@ -104,10 +104,10 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .container {
-    border-radius: 5px;
+    border-radius: 0.313rem;
     background-color: #f2f2f2;
-    padding: 20px;
-    width: 600px;
+    padding: 1.25rem;
+    width: 37.5rem;
   }
 
 .footer {
@@ -115,7 +115,7 @@ input[type=text], select, textarea {
     justify-content: center;
     background-color: var(--pink);
     width: 100%;
-    padding: 100px 0px;
+    padding: 6.25rem 0rem;
 
 }
 
@@ -128,8 +128,8 @@ input[type=text], select, textarea {
 .profilepic {
     /* float: right; */
     text-align: right;
-    border-radius: 50px;
-    height: 400px;
+    border-radius: 3.125rem;
+    height: 25rem;
     background-color: var(--pink);
 }
 
@@ -138,60 +138,60 @@ input[type=text], select, textarea {
     background-color: var(--pink);
     border: none;
     color: black;
-    padding: 15px 32px;
+    padding: 0.938rem 2rem;
     /* text-align: center; */
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1rem;
+    margin: 0.25rem 0.125rem;
     cursor: pointer;
-    width: 200px;
-    border-radius: 25px;
+    width: 12.5rem;
+    border-radius: 1.563rem;
   }
 
   .grid-container1 {
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-    gap: 10px;
+    gap: 0.625rem;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
     justify-content: space-between;
-    padding: 0px 200px;
+    padding: 0rem 12.5rem;
   }
 
   .grid-container2 {
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-    gap: 10px;
+    gap: 0.625rem;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
     justify-content: space-between;
-    padding: 0px 200px;
+    padding: 0rem 12.5rem;
   }
   
   .grid-item1 {
     background-color: var(--pink);
-    padding: 5px;
+    padding: 0.313rem;
     text-align: center;
-    width: 600px;
-    height: 600px;
+    width: 37.5rem;
+    height: 37.5rem;
   }
 
   .grid-item2 {
     background-color: var(--pink);
     /* padding: 10px; */
     text-align: center;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
   }
 
   .mylogo {
-    width: 140px;
-    height: 120px;
+    width: 8.75rem;
+    height: 7.5rem;
     background-image: url("./assets/FullLogo.png");
     background-color: white;
   }
@@ -200,17 +200,17 @@ input[type=text], select, textarea {
 #about-me {
 flex-direction: column;
 line-height: 2;
-padding-left: 70px;
+padding-left: 4.375rem;
 }
 
 #aboutme {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: lowercase;
 }
 
 #my-work {
-    padding-top: 100px;
-
+    padding-top: 6.25rem;
+    justify-content: center;
 }
 
 #resume {
@@ -220,11 +220,11 @@ padding-left: 70px;
 
 
 
-/* Tablets - header changes color */
-@media screen and (max-width: 1572px) {
+/* Tablets */
+@media screen and (max-width: 98.25rem) {
     header, main {
         flex-direction: column;
-        padding: 0px;
+        padding: 0rem;
         align-items: center;
     
     }
@@ -234,76 +234,76 @@ padding-left: 70px;
     }
     
     #about-me {
-        padding-top: 100px;
-        padding-left: 0px;
+        padding-top: 6.25rem;
+        padding-left: 0rem;
         align-items: center;
         }
     #aboutme {
-        margin-top: 0px;
+        margin-top: 0rem;
         justify-content: left;
     }
     
     .profilepic {
-        width: 600px;
-        height: 450px;
+        width: 37.5rem;
+        height: 28.125rem;
     }
 
     .button {
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
 
     }
     .footer-about, .footer-services, .footer-contact, .footer-follow {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
   }
 
   .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(9.375rem, 1fr));
   }
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 1000px) {
+  /* Large smartphones */
+  @media screen and (max-width: 62.5rem) {
     main {
-        padding: 0px 0px;
+        padding: 0rem 0rem;
    }
 
    .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(6.25rem, 1fr));
   }
   
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 800px) {
+  /* Small smartphones */
+  @media screen and (max-width: 50rem) {
     a {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     #aboutme {
-      width: 300px;
-      height: 300px;
-      font-size: 30px;
+      width: 18.75rem;
+      height: 18.75rem;
+      font-size: 1.875rem;
   }
 
   .profilepic {
-    width: 350px;
-    height: 250px;
+    width: 21.875rem;
+    height: 15.625rem;
   }
 
   .grid-item1 {
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
   }
 
   .grid-item2 {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
   }
 
   .container {
-    width: 300px;
-    height: 300px;
-    padding-bottom: 350px;
+    width: 18.75rem;
+    height: 18.75rem;
+    padding-bottom: 21.875rem;
   }
 
   .footer {
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
